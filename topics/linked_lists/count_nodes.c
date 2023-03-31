@@ -7,10 +7,11 @@ struct node
 	struct node *ptn;
 };
 
-void count(struct node *);
+int count(struct node *);
 
 int main(void)
 {
+	int elems = 0;
 	struct node *head = malloc(sizeof(struct node));
 
 	head->data = 26;
@@ -20,6 +21,7 @@ int main(void)
 
 	block->data = 27;
 	block->ptn = NULL;
+	head->ptn = block;
 
 	block = malloc(sizeof(struct node));
 
@@ -32,19 +34,28 @@ int main(void)
 	printf("The second data in the list is %d.\n", head->ptn->data);
 	printf("The third data in the list is %d.\n", head->ptn->ptn->data);
 
-	/*count(head);*/
+	elems = count(head);
+	printf("The number of nodes is %d.\n", elems);
 
+	// Free memory
+	struct node *ptr;
+	while (head != NULL)
+	{
+		ptr = head->ptn;
+		free(head);
+		head = ptr;
+	}
 	return (0);
 }
 
-/*void count(struct node *head)
+int count(struct node *head)
 {
 	int num = 0;
 
 	if (head == NULL)
 		printf("The list is empty");
 	
-	struct node *ptr;
+	struct node *ptr = NULL;
 
 	ptr = head;
 
@@ -53,5 +64,5 @@ int main(void)
 		num++;
 		ptr = head->ptn;
 	}
-	printf("The number of nodes in the list is %d.\n", num);
-}*/
+	return (num);
+}
