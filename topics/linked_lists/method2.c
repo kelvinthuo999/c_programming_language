@@ -7,6 +7,18 @@ struct node
 	struct node *ptn;
 };
 
+int count(struct node *head)
+{
+	int num = 0;
+
+	while (head != NULL)
+	{
+		num++;
+		head = head->ptn;
+	}
+	return (num);
+}
+
 int main(void)
 {
 	struct node *head = malloc(sizeof(struct node));
@@ -27,6 +39,10 @@ int main(void)
 	printf("The first data in list is %d.\n", head->data);
 	printf("The second data in list is %d.\n", head->ptn->data);
 	printf("The third data in list is %d.\n", head->ptn->ptn->data);
+
+	int num = count(head);
+	
+	printf("%d.", num);
 
 	return (0);
 }

@@ -52,17 +52,10 @@ int count(struct node *head)
 {
 	int num = 0;
 
-	if (head == NULL)
-		printf("The list is empty");
-	
-	struct node *ptr = NULL;
-
-	ptr = head;
-
-	while (ptr != NULL)
+	while (head != NULL)
 	{
 		num++;
-		ptr = head->ptn;
+		head = head->ptn;
 	}
 	return (num);
 }
