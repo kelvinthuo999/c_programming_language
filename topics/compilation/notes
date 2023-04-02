@@ -1,0 +1,8 @@
+-> In computing, a compiler is a computer program that translates computer code written in one programming language (the source language) into another language (the target language).
+-> The various types of compilers: a) GCC - GNU Compiler Collection
+				   b) Clang
+-> The Components of the C Program Compilation Pipeline are: Preprocessor | Compilation | Assembly | Linker.
+-> Preprocessor removes comments, replaces macros with their values, and includes the libraries.To produce a file from the preprocess only, we use the -E option and it will produce a .i file.
+-> Compilation process produces an assembly code with a .s file extension that is still human readable but closer to hardware. To produce assembly code only, we use -S option with gcc.
+-> Assembly generates a relocatable object file from the assembly code with a .o extension. We use -c option to produce an object code with the gcc.
+-> Linking involves linking together all the object code to produce an executable code.
