@@ -9,6 +9,7 @@ struct node
 
 int main(void)
 {
+	/*creating nodes*/
 	struct node *head = NULL;
 
 	head = malloc(sizeof(struct node));
@@ -41,11 +42,46 @@ int main(void)
 
 	head->ptl->ptl->ptl->ptl = new2;
 
+	/*printing the contents of the nodes one by one*/
 	printf("content in the node is %d.\n", head->data);
 	printf("content in the new node is %d.\n", head->ptl->data);
 	printf("content in the second new node is %d.\n", head->ptl->ptl->data);
 	printf("content in the third new node is %d.\n", head->ptl->ptl->ptl->data);
 	printf("content in the fourt new node is %d.\n", head->ptl->ptl->ptl->ptl->data);
+
+	/*printing the contents of the nodes using a while loop*/
+
+	printf("Printing the contents of the nodes using a loop.\n");
+
+	struct node *temp = NULL;
+
+	temp = head;
+
+	while (temp != NULL)
+	{
+		printf("this node contains %d.\n", temp->data);
+		temp = temp->ptl;
+	}
+
+	/*counting the number of nodes*/
+
+	int count = 0;
+
+	if (head == NULL)
+	{
+		printf("The linked list is empty");
+	}
+	else
+	{
+		temp = head;
+
+		while (temp != NULL)
+		{
+			count++;
+			temp = temp->ptl;
+		}
+		printf("The number of nodes created is %d.\n", count);
+	}
 
 	return (0);
 }
