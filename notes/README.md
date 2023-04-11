@@ -30,4 +30,21 @@ operand. Also called the modulus operator.
 -> A statement is a complete instruction, ending with a semicolon.
 -> A function name should reflect what it can do.
 -> Arguments are pieces of information passed to a function.
--> 
+
+			HOUR 4
+
+-> ASCII stands for American Standard Code for Information Interchange.
+-> A char takes up 1 byte of storage.
+-> char variablename;
+-> %c is the character format specifier.
+-> Character constant is enclosed in single quotes.
+-> A string of more than one character uses double quotes.
+-> int keyword is used to specify the type of a variable as an integer.
+-> int variablename;
+-> %d is an integer format specifier.
+-> A floating-point number has a decimal point.
+-> float variablename;
+-> %f is the floating-point specifier.
+-> A double uses twice the storage for a float.
+-> Floating-point numbers can be suffixed with f or F to specify float. A floatingpoint number without a suffix is double by default.
+-> %c is used for character set only. 
