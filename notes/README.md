@@ -1,12 +1,12 @@
 			HOUR 1
-
+<pre>
 -> C is a high-level programming language.
 -> C is portable, readable, and easily maintained.
 -> American National Standards Instute(ANSI) built the standard library.
 -> Programs in C must be compiled before they can be used.
-
+</pre>
 			HOUR 2
-
+<pre>
 -> Source code for C programs must have a .c extension.
 -> /*....*/ are used to indicate comments in C.
 -> Comments help document specific sections or functions do in the program.
@@ -18,9 +18,9 @@
 -> Every C program must have main() function and it can only be one.
 -> exit() function can also be used to end a program but does not return a value to your program.
 -> Program errors are also called bugs.
-
+</pre>
 			HOUR 3
-
+<pre>
 -> A constant is a value that never changes.
 -> A variable can be used to represent different values.
 -> An expression is a combination of constants, variables, and operators that are used to
@@ -30,9 +30,9 @@ operand. Also called the modulus operator.
 -> A statement is a complete instruction, ending with a semicolon.
 -> A function name should reflect what it can do.
 -> Arguments are pieces of information passed to a function.
-
+</pre>
 			HOUR 4
-
+<pre>
 -> ASCII stands for American Standard Code for Information Interchange.
 -> A char takes up 1 byte of storage.
 -> char variablename;
@@ -48,9 +48,9 @@ operand. Also called the modulus operator.
 -> A double uses twice the storage for a float.
 -> Floating-point numbers can be suffixed with f or F to specify float. A floatingpoint number without a suffix is double by default.
 -> %c is used for character set only.
-
+</pre>
 			HOUR 5
-
+<pre>
 -> C language treats a file as a series of bytes(stream).
 -> stdin — The standard input for reading.
 -> stdout—The standard output for writing.
@@ -67,5 +67,5 @@ base-2 (or binary) number system, and our more familiar base-10 (or decimal) sys
 from the standard input.
 -> The C library functions putc() and putchar() can be used to write one character
 to the standard output.
-
+</pre>
 
