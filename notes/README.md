@@ -47,4 +47,25 @@ operand. Also called the modulus operator.
 -> %f is the floating-point specifier.
 -> A double uses twice the storage for a float.
 -> Floating-point numbers can be suffixed with f or F to specify float. A floatingpoint number without a suffix is double by default.
--> %c is used for character set only. 
+-> %c is used for character set only.
+
+			HOUR 5
+
+-> C language treats a file as a series of bytes(stream).
+-> stdin — The standard input for reading.
+-> stdout—The standard output for writing.
+-> stderr—The standard error for writing error messages.
+-> The above three files are pre-opened and always available to use.
+-> Hex is a compromise between the computer-readable
+base-2 (or binary) number system, and our more familiar base-10 (or decimal) system.
+-> %x or %X are the unsigned hexadecimal format specifiers.
+-> A hexadecimal number is represented by 4 bits.
+-> Minimum field width specifier specifies the minimum field width and ensures that the output reaches the minimum width.
+-> A positive integer between the % and the specifier aligns the output to the right.
+-> A negative integer between the % and the specifier aligns the output to the left.
+-> The C library functions getc() and getchar() can be used to read in one character
+from the standard input.
+-> The C library functions putc() and putchar() can be used to write one character
+to the standard output.
+
+
