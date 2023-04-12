@@ -68,4 +68,15 @@ from the standard input.
 -> The C library functions putc() and putchar() can be used to write one character
 to the standard output.
 </pre>
-
+			#HOUR 6#
+<pre>
+-> The assignment operator = assigns whatever value is held on the right to the variable on the left.
+-> Arithmetic assignment operator is a combination of the assignment operators with arithmetic operators(+=, -=, /=, %=).
+-> ++x represents pre-increment, whereas x++ represents post-increment.
+-> --x represents pre-decrement, whereas x-- represents post-decrement.
+-> Pre refers to first evaluate then assign, while Post means assign then evaluate.
+-> Relational operators evaluate to either 1 when the evaluation is true, and 0 when the evaluation is false.
+-> Arithmetic operators have precedence over relational operators.
+-> Cast operator changes the data type of a variable, expression, or constant.
+</pre>
+		
