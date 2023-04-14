@@ -84,11 +84,23 @@ to the standard output.
 -> Looping can be used to perform the same set of statements over and over until
 specified conditions are met.
 -> There are three statements, while, and do-while, and for, that are used for looping in C.
-
 -> The while statement contains one expression, which is the conditional expression
 which controls the loop.
+-> The syntax for the while loop:
+	while (expression)
+		statement;
 -> The do-while statement places its conditional expression at the bottom of the loop and ends with a semicolon.
+-> The syntax for the do-while loop:
+	do {
+		statement1;
+		statement2;
+	} while (expression);
 -> There are three expressions in the for statement. The second expression is the conditional expression.
+-> The syntax for the for loop:
+	for (expression1; expression2; expression3){
+		statement1;
+		statement2;
+	}
 -> Multiple expressions, combined via commas, can be used as one expression in the
 for statement.
 </pre>
