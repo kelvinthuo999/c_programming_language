@@ -79,4 +79,17 @@ to the standard output.
 -> Arithmetic operators have precedence over relational operators.
 -> Cast operator changes the data type of a variable, expression, or constant.
 </pre>
-		
+			#HOUR 7#
+<pre>
+-> Looping can be used to perform the same set of statements over and over until
+specified conditions are met.
+-> There are three statements, while, and do-while, and for, that are used for looping in C.
+
+-> The while statement contains one expression, which is the conditional expression
+which controls the loop.
+-> The do-while statement places its conditional expression at the bottom of the loop and ends with a semicolon.
+-> There are three expressions in the for statement. The second expression is the conditional expression.
+-> Multiple expressions, combined via commas, can be used as one expression in the
+for statement.
+</pre>
+
