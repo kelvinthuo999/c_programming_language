@@ -1,11 +1,11 @@
-			HOUR 1
+					HOUR 1
 <pre>
 -> C is a high-level programming language.
 -> C is portable, readable, and easily maintained.
 -> American National Standards Instute(ANSI) built the standard library.
 -> Programs in C must be compiled before they can be used.
 </pre>
-			HOUR 2
+					HOUR 2
 <pre>
 -> Source code for C programs must have a .c extension.
 -> /*....*/ are used to indicate comments in C.
@@ -19,7 +19,7 @@
 -> exit() function can also be used to end a program but does not return a value to your program.
 -> Program errors are also called bugs.
 </pre>
-			HOUR 3
+					HOUR 3
 <pre>
 -> A constant is a value that never changes.
 -> A variable can be used to represent different values.
@@ -31,7 +31,7 @@ operand. Also called the modulus operator.
 -> A function name should reflect what it can do.
 -> Arguments are pieces of information passed to a function.
 </pre>
-			HOUR 4
+					HOUR 4
 <pre>
 -> ASCII stands for American Standard Code for Information Interchange.
 -> A char takes up 1 byte of storage.
@@ -49,7 +49,7 @@ operand. Also called the modulus operator.
 -> Floating-point numbers can be suffixed with f or F to specify float. A floatingpoint number without a suffix is double by default.
 -> %c is used for character set only.
 </pre>
-			HOUR 5
+					HOUR 5
 <pre>
 -> C language treats a file as a series of bytes(stream).
 -> stdin — The standard input for reading.
@@ -68,7 +68,7 @@ from the standard input.
 -> The C library functions putc() and putchar() can be used to write one character
 to the standard output.
 </pre>
-			#HOUR 6#
+					HOUR 6
 <pre>
 -> The assignment operator = assigns whatever value is held on the right to the variable on the left.
 -> Arithmetic assignment operator is a combination of the assignment operators with arithmetic operators(+=, -=, /=, %=).
@@ -79,7 +79,7 @@ to the standard output.
 -> Arithmetic operators have precedence over relational operators.
 -> Cast operator changes the data type of a variable, expression, or constant.
 </pre>
-			#HOUR 7#
+					HOUR 7
 <pre>
 -> Looping can be used to perform the same set of statements over and over until
 specified conditions are met.
@@ -104,4 +104,21 @@ which controls the loop.
 -> Multiple expressions, combined via commas, can be used as one expression in the
 for statement.
 </pre>
-
+					HOUR 8
+<pre>
+-> sizeof() operator is used to determine the size of data type or a variable.
+-> && is a logical AND operator that only returns true when the both expressions return true after evaluation.
+-> || is a logical OR operator that return true if any one of the pair expressions returns true and results to false only when both expressions are false.
+-> ! is a NEGATION operator is a unary operator changes the result of an expression to false if it is true and vice versa.
+-> & is a bitwise operator that compares each bit of x and the corresponding in y and only results in 1 if both bits are 1, and results in 0 if any or both bits are 0.
+-> | results in 1 if any of the bits is 1 and only results to 0 if both the bits are 0.
+-> ^ operator places 1 in the result if one operand, but not both, is 1.
+-> ~ operator takes one operand and reverses each bit in the operand.
+-> >> operator shifts the bits of an operand to the right.
+-> << operator shifts the bits of an operand to the left.
+-> ?: is the conditional operator.
+-> Syntax for ?: is
+	x ? y : z
+-> x contains the test condition. If x results to true, y is chosen. If x evaluates to false, z is chosen.
+</pre>
+					HOUR 9
