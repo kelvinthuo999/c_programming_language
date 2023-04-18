@@ -122,3 +122,14 @@ for statement.
 -> x contains the test condition. If x results to true, y is chosen. If x evaluates to false, z is chosen.
 </pre>
 					HOUR 9
+<pre>
+-> An absolute value is the distance of the number from zero.
+-> sign bit indicates if a number is negative in C.
+-> In integer data types(char, int, short int, long int), the leftmost bit is used as the sign bit.
+-> A signed data type means it can hold both negative and positive values.
+-> An unsigned data type indicates to the compiler that the data type can only hold non-negative values.
+-> short modifier is used to reduce the memory size of a data type.
+-> long modifier is used to increase the storage space of a data type.
+</pre>
+					HOUR 10
+
