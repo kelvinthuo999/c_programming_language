@@ -158,3 +158,16 @@ for statement.
 </pre>
 					HOUR 11
 <pre>
+-> A pointer(address variable) is a special variable that contains the address of another variable.
+-> A variable has two values: a) left value(memory address)	b) right value(a specific value).
+-> & is the address-of operator which is used to determine the address of a variable.
+-> %p is the format specifier to print out the address of a variable using printf.
+-> An asterisk is used to declare a pointer.
+-> An asterisk is used to access the content of the address stored in a pointer.
+-> A null pointer has a right value that is 0.
+-> Several pointers can point to the same location of a variable in the memory.
+-> You can update the value of a variable referred by a pointer variable.
+</pre>
+					HOUR 12
+<pre>
+->
