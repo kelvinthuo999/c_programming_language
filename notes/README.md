@@ -132,4 +132,29 @@ for statement.
 -> long modifier is used to increase the storage space of a data type.
 </pre>
 					HOUR 10
-
+<pre>
+-> if statement syntax:
+	if (expression)
+{
+	statement1;
+}
+-> When the expression evaluates to true, the statements within the if statement are executed.
+-> if...else statement is an extension on the if statement.
+-> When the expression in the if statement evaluates to false, the statements in the else block are executed.
+-> Nested if statements can be used to make a series of related decisions.
+-> switch statement are used when there is unlimited decisions to be made depending on an expression.
+-> switch statement syntax:
+	switch (expression)
+{	
+	case constant-expression:
+		statement1;
+	case constant-expression:
+		statement2;
+	default:
+		statement-default;
+}
+-> The break statement can be used to exit the switch construct or a loop.
+-> The continue statement is used to let you stay within a loop while skipping over some statements.
+</pre>
+					HOUR 11
+<pre>
