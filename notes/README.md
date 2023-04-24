@@ -194,4 +194,7 @@ for statement.
 -> strcpy() is used to copy a string from array to another.
 -> strcpy() returns the value of src if it is successful.
 -> %s is the format specifier to display a string using printf.
+-> A character string can be assigned to a char pointer.
+-> The puts() function adds a newline character by default.
+</pre>
 
