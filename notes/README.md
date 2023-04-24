@@ -170,4 +170,28 @@ for statement.
 </pre>
 					HOUR 12
 <pre>
-->
+-> An array is a collection of variable of the same data type.
+-> Each item in the array is called an element.
+-> Syntax to declare an array:
+	data-type array-name[array-size];
+-> All arrays are indexed from 0.
+-> sizeof(array-name) can be used to determine the size of an array.
+-> You can display all the element of an array using a for loop. In case of a character array, we can use the %s which is a format specifier to display a string using printf.
+-> The null character('\0') marks the end of a string.
+-> When declaring a 2-dimensional array, the size of the first dimension must be indicated.
+-> A pointer is said to refer to an array when the address of the first element in the array is assigned to the pointer.
+</pre>
+					HOUR 13
+<pre>
+-> A character string is a character array ending with a null character.
+-> The length of a string can be shorter than its character array.
+-> A string constant is a series of characters enclosed in double quotes.
+-> A character array only becomes a character string when the null character is added at the end.
+-> A character constant is a character enclosed in single quotes.
+-> You cannot assign a character constant to a pointer variable.
+-> size_t is a data type defined in the string.h file.
+-> strlen() does not count the null character.
+-> strcpy() is used to copy a string from array to another.
+-> strcpy() returns the value of src if it is successful.
+-> %s is the format specifier to display a string using printf.
+
