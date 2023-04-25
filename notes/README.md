@@ -197,4 +197,20 @@ for statement.
 -> A character string can be assigned to a char pointer.
 -> The puts() function adds a newline character by default.
 </pre>
-
+					HOUR 14
+<pre>
+-> A block refers to any sets of statements enclosed in braces.
+-> A variable declared within a block has block scope or local scope.
+-> Function scope indicates that a variable is active and visible from the beginning to the end of a function.
+-> Program scope is when the variable is declared outside a function or global scope.
+-> Storage class of a variable refers to the combination of its spatial and temporal regions.
+-> Temporal refers to duration.
+-> auto specifier indicates that the memory location of a variable is temporary.
+-> auto specifier is only used with variables that have block scope.
+-> static specifier makes the variable to have a permanent duration.
+-> static specifier can be used by either local or global variables.
+-> A variable with file scope is visible from its declaration point to the end of the file.
+-> register specifier is to suggest to the compiler to store a variable in the register for faster access.
+-> extern specifier allude to a global variable defined in a different file other than the one being executed at that moment.
+-> A variable initialized with const modifier cannot be changed after initialization.
+-> A goto label has function scope.
