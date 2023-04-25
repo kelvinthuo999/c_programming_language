@@ -214,3 +214,16 @@ for statement.
 -> extern specifier allude to a global variable defined in a different file other than the one being executed at that moment.
 -> A variable initialized with const modifier cannot be changed after initialization.
 -> A goto label has function scope.
+</pre>
+						HOUR 15
+<pre>
+-> A function can be declared to return any data type, except an array or function.
+-> By default, the return type of a function is int.
+-> The number and types of an argument passed to a function are called the function prototype.
+-> A function call is an expression that can be used as a single statement or within other statements.
+-> void is used in the declaration to indicate to the compiler that no argument or return type is needed by the function.
+-> time.h file contains all the declarations of all the date and time functions.
+-> There three types of functions: a) takes no arguments b) takes a fixed number of arguments c) takes a variable number of arguments.
+-> A function declaration alludes to a function that is defined elsewhere, and specifies what type of arguments and values are passed to and returned from the function as well.
+-> A function definition reserves the memory space and defines what the function does, as well as the number and type of arguments passed to the function.
+-> 
