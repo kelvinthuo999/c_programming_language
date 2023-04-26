@@ -226,4 +226,15 @@ for statement.
 -> There three types of functions: a) takes no arguments b) takes a fixed number of arguments c) takes a variable number of arguments.
 -> A function declaration alludes to a function that is defined elsewhere, and specifies what type of arguments and values are passed to and returned from the function as well.
 -> A function definition reserves the memory space and defines what the function does, as well as the number and type of arguments passed to the function.
--> 
+-> The declaration of a variable or function specifies the interpretation and attributes of a set of identifiers.
+-> The definition requires the compiler to reserve storage for a variable or function named by an identifier.
+-> stdarg.h file enables a person to write functions that take a variable number of arguments.
+</pre>
+						HOUR 16
+<pre>
+-> Format to change the position of a pointer: pointerName + n.
+-> You need to initialize a pointer to a legal address before you can dereference it.
+-> The scalar size of a pointer is determined by the size of its data type, which is specified in the pointer declaration.
+-> You can pass an unsized array as a single argument to a function.
+</pre>
+
