@@ -237,4 +237,40 @@ for statement.
 -> The scalar size of a pointer is determined by the size of its data type, which is specified in the pointer declaration.
 -> You can pass an unsized array as a single argument to a function.
 </pre>
+ 						HOUR 17
+<pre>
+-> malloc() function is used to allocate a specified size of memory space.
+-> malloc() returns a void pointer.
+-> When malloc() fails, it returns a null pointer.
+-> free() function is used to release allocated memory.
+-> calloc() function is similar to malloc().
+-> The main difference is that calloc() takes in two arguments and the memory allocated
+   by calloc() is initialized to zero.
+-> The realloc() function gives you a means to change the size of a piece memory space allocated
+   by the malloc(), calloc(), or even realloc() itself.
+-> realloc() can be used in place of free() when zero is passed in as the second argument.
+-> If a null pointer is passed to the realloc() function as its first argument, the function act    s like the malloc() function.
+-> You have to include the header file stdlib.h before you can call the malloc(), calloc(), real    loc(),
+   or free() function.
+-> It's good practice to check the value returned by the memory allocation function before using
+   the allocated memory space.
+</pre>
+ 				HOUR 18
+<pre>
+-> enum short for enumerated can be used to declare named integer constants.
+-> General form of the enum type is:
+         enum tag_name {enumeration_list} variable_list;
+-> Integer value associated with the leftmost name in the enumeration list field start with 0.
+-> typedef helps in creating own names for data types.
+-> typedef is used to consolidate complex data types into a single word and then use the word
+   in variable declarations in your program.
+-> A function that can call itself from a statement inside the body of the function itself
+   is called a recursive function.
+-> A recursive function may run slower than their iterative equivalents due to the overhead
+   of repeated function calls.
+-> A command-line argument is a parameter that follows a program's name when the program is invo    ked from the operating system's command line.
+-> argc and argv are built-in functions to receive command-line arguments.
+-> argc is used to store the number of arguments on the command line.
+-> argv is a pointer to an array of char pointers.
+</pre>
 
