@@ -273,4 +273,13 @@ for statement.
 -> argc is used to store the number of arguments on the command line.
 -> argv is a pointer to an array of char pointers.
 </pre>
-
+						HOUR 19
+<pre>
+-> structure can be used to group variables of different types.
+-> The data items in a structure are called members of the structure.
+-> The struct keyword is used to start a structure declaration or a structure variable definition.
+-> The dot operator (.) is used to separate a structure name and a member name in referencing
+   the structure member.
+-> The arrow operator (->) is commonly used to reference a structure member using a pointer to the structure.
+-> You can enclose a structure withing another structure.
+</pre>
