@@ -283,3 +283,13 @@ for statement.
 -> The arrow operator (->) is commonly used to reference a structure member using a pointer to the structure.
 -> You can enclose a structure withing another structure.
 </pre>
+						HOUR 20
+<pre>
+-> A union is a block of memory that is used to hold data items of different types.
+-> A union is similar to a structure, except that data items saved in the union are over laid 
+   in order to share the same starting memory location.
+-> The size of a union is at least the size of the size of the largest member in the union.
+-> The union keyword is used to specify the union data type in a union declaration or a union
+   variable definition.
+</pre>
+
