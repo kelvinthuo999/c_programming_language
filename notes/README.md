@@ -292,4 +292,34 @@ for statement.
 -> The union keyword is used to specify the union data type in a union declaration or a union
    variable definition.
 </pre>
+						HOUR 21
+<pre>
+-> A file can refer to a disk file, a terminal, a printer, or a tape drive.
+-> A file represents a concrete device with which you want to exchange information.
+-> A stream represent the data flow transfer from a program to a file.
+-> There are two types of streams: a) text stream  b)binary stream.
+-> A buffer stores data temporarily before it is sent to its destination.
+-> A pointer of type FILE references a disk file and is used by a stream to conduct the operation of the I/O functions.
+-> fopen() opens a file and associates a stream with the opened file.
+-> fopen() returns a pointer of type FILE, otherwise it returns a null pointer.
+-> fclose() disassociates the file from a specified stream.
+-> fread() returns the number of elements actually read.
+-> fwrite() returns the number of elements actually written.
+-> feof() is used to determine when the end of a file is encountered.
+-> feof() is really useful when reading a binary file.
+-> A stream is a series of ordered bytes.
+</pre>
+						HOUR 22
+<pre>
+-> Sequential access is reading and writing data sequentially to an opened disk file.
+-> The file position indicator point to the desired position in a file before data can be read 
+   or written to there.
+-> fseek() is used to move the file position indicator to the spot you want to access in a file.
+-> ftell() is used to obtain the current value of the file position indicator.
+-> rewind() is used to rewind the file position indicator.
+-> After you specify the mode of the fopen() function for a binary file, you can use the fread() 
+   or fwrite() functions to perform I/O operations on binary data.
+-> fscanf() and fprintf() allow the programmer to specify I/O streams.
+-> You can redirect the standard streams to a disk file with the help of the freopen() function.
+</pre>
 
