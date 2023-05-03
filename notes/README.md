@@ -322,4 +322,23 @@ for statement.
 -> fscanf() and fprintf() allow the programmer to specify I/O streams.
 -> You can redirect the standard streams to a disk file with the help of the freopen() function.
 </pre>
-
+						HOUR 23
+<pre>
+-> C preprocessor allows you to define and associate symbolic names with constants.
+-> The pound sign denotes the beginning of a preprocessor directive.
+-> #define directive tells the preprocessor to replace every occurence of a particular character
+   string with a specified value.
+-> #undef directive tells the C preprocessor to remove the definition of a macro name that has 
+   been previously defined.
+-> #ifndef directive enables you to define code that is to be executed when a particular macro 
+   name is not defined.
+-> #if directive specifies that certain statements are to be included only if the value 
+   represented by the conditional expression is nonzero.
+-> The C preprocessor is not part of C compiler.
+-> A macro statement ends with a newline character, not a semicolon.
+-> The #if, #elif, and #else directives enable you to select alternate portions of code to compile.
+</pre>
+						HOUR 24
+<pre>
+-> Start practicing by writing programs.
+</pre>
