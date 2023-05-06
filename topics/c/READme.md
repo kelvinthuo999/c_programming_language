@@ -1,4 +1,4 @@
-					HOUR 1
+							HOUR 1
 <pre>
 -> Organization is the key to writing good programs.
 -> While commenting out the program, you are halfway in writing it in C.
@@ -12,7 +12,7 @@
 -> A good program should be organized into sections.
 -> A program should be concise and easy to read.
 </pre>
-						HOUR 2
+							HOUR 2
 <pre>
 -> Variables are the building blocks of a program and the instructions tell the computer what to do with the variables.
 -> Comments are used to describe the variables and instructions.
@@ -34,4 +34,31 @@
 -> char represents single characters.
 -> Backslash character \ is called the escape character.
 </pre>
-
+							HOUR 3
+<pre>
+-> An array is a set of consecutive memory locations used to store data of the same type.
+-> Indexing of arrays starts at zero.
+-> Strings are sequences of characters.
+-> NULL character '\0' is used to indicate the end of a string.
+-> C does not allow one array to be assigned to another.
+-> strcpy is used to copy the string constant into the variable.
+-> strcpy copies the whole string including the NULL character.
+-> Strings are surrounded by double quotes and character by single quotes.
+-> length of a string = strlen(string).
+-> %s is the format specifier for printing string variables using printf function.
+-> fgets can be used to read a string from the standard input.
+-> Syntax for fgets: fgets(name, sizeof(name), stdin);
+-> Arrays can have more than one dimension.
+-> scanf function can be used to read in number.
+-> scanf is very poor at end-of-line handling.
+-> C allows variables to be initialized in the declaration statement.
+-> long qualifier informs C to allocate extra storage for the integer.
+-> short qualifier informs C to reduce the storage.
+-> unsigned numbers provide a way of doubling the positive range at the expense of eliminating negative numbers.
+-> unsigned numbers are useful for counters and indices and other values that can never be negative.
+-> float denotes normal precision and double denotes double precision.
+-> double is used in most cases where accuracy is a problem.
+-> Constants must be initialized at declaration time and can never be changed.
+-> A zero before a number indicate the number is of base 8, while 0x before a number indicates its of base 16.
+-> A side effect is an operation that is performed in addition to the main operation executed by the statement.
+</pre>
