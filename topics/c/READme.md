@@ -12,3 +12,26 @@
 -> A good program should be organized into sections.
 -> A program should be concise and easy to read.
 </pre>
+						HOUR 2
+<pre>
+-> Variables are the building blocks of a program and the instructions tell the computer what to do with the variables.
+-> Comments are used to describe the variables and instructions.
+-> Basic structure in C is a function and combined functions form a program.
+-> return (0) indicates the programm exited normally, otherwise a non-zero value will indicate an error.
+-> Semicolon is used in C to end a statement.
+-> printf is used in C to output a message.
+-> In arithmetic, multiply, divide and modulus have precedence over add and subtract. 
+-> Parentheses can be used to change this precedence.
+-> Variable names identify memory location which hold values and each variable has a type.
+-> Variable declaration defines the name, type, and gives a description of the variable.
+-> Integer numbers have no fractional part or decimal point.
+-> Computers use binary digits called bits and 8 bits make a byte.
+-> Assignment statements are used to give a variable a value.
+-> Floating point are also known as real numbers.
+-> Floating point must contain a decimal point.
+-> %f is the format specifier to display a floating point with printf.
+-> In integer division, the result is truncated.
+-> char represents single characters.
+-> Backslash character \ is called the escape character.
+</pre>
+
