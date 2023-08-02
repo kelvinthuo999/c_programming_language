@@ -1,5 +1,23 @@
 #include <stdio.h>
 
+/**
+ * getString - fetch string input from user
+ * @prompt: Message passed to the user
+ * @input: pointer to the array
+ * @size: size of the array
+ */
+
+void getString(char *prompt, char *input, int size)
+{
+	printf("%s", prompt);
+	scanf(" %[^\n]", input);
+}
+
+/**
+ * main - fetch and print personal data
+ * Return: 0(success)
+ */
+
 int main(void) {
 	/* variable declaration */
 	char name[50];
@@ -10,16 +28,14 @@ int main(void) {
 
 	/* fetch input from user */
 	printf("\t\t\t Welcome to data collection\n");
-	printf("Enter your full name: ");
-	scanf(" %[^\n]", name);
-	printf("Enter the month of birth: ");
-	scanf(" %[^\n]", month);
-	printf("Enter the date of birth: ");
+	
+	getString("Enter your full name: ", name, sizeof(name));
+	getString("Enter date of birth.\nMonth: ", month, sizeof(month));
+	printf("Date of birth: ");
 	scanf("%d", &date);
-	printf("Enter year of birth: ");
+	printf("Year of birth: ");
 	scanf("%d", &year);
-	printf("Enter your mobile number: ");
-	scanf(" %[^\n]", mobile_number);
+	getString("Enter your mobile number: ", mobile_number, sizeof(mobile_number));
 
 	/* print the data */
 	printf("\nHello %s.", name);
